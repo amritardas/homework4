@@ -93,7 +93,6 @@ footer{
 }
 
 header{
-  display: grid;
   background-attachment: fixed; /* Parallax effect */
   background-position: center;  /* Parallax effect */
   background-repeat: no-repeat; /* Parallax effect */
@@ -118,7 +117,6 @@ header p{
 
 .about, .method, .clients, .contact{
   /*Your Code Here*/
-  display: grid;
   grid-column: 2 / auto;
   grid-row: 2 / auto;
   grid-row: 3 / auto;
@@ -128,7 +126,6 @@ header p{
 
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your Code Here*/
-  display: grid;
   grid-column: 1 / -1;
   max-height: 700px;
   display:inline;
@@ -186,12 +183,10 @@ header p{
   }
 
   .about, .clients, .method-image, .contact-image{
-    display: grid;
     grid-column: 3 / 6;
   }
 
   .about-image, .clients-image, .method, .contact{
-    display: grid;
     grid-column: 2 / 5;
   }
 }
