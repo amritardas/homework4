@@ -103,7 +103,7 @@ header{
 
   /*Your Code Here*/
   /*Set background-image to header.jpg */
-  background-image: url("..images/header.jpg");
+  background-image: url("../images/header.jpg");
   grid-column: 1 / -1;  /*Can you explain what this does?*/
   grid-row: span 1;   /*Can you rewrite it?*/
 }
@@ -127,7 +127,6 @@ header p{
   max-height: 700px;
   align-self: center;
   display:inline-block;
-  overflow: hidden;
   grid-column: 1 / -1;
   grid-row: auto / auto;
 }
