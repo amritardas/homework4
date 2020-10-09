@@ -138,24 +138,24 @@ grid-row: auto / auto;
 
 .about, .about-image{
  /*Your Code Here*/
-
+  grid-row-start: 2;
 }
 
 .method, .method-image{
  /*Your Code Here*/
-
+  grid-row-start: 3;
 }
 
 
 .clients, .clients-image{
   /*Your Code Here*/
-
+  grid-row-start: 4;
 }
 
 
 .contact, .contact-image{
   /*Your Code Here*/
-
+  grid-row-start: 5;
 }
 
 .text-block{
