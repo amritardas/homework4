@@ -106,7 +106,7 @@ height: 400px;                /* Parallax effect */
 /*Set background-image to header.jpg */
 background-image: url("../images/header.jpg");
 grid-column: 1 / -1;  /*Can you explain what this does?*/
-grid-row: span 1;   /*Can you rewrite it?*/
+grid-row: 1 / auto;   /*Can you rewrite it?*/
 }
 
 header p{
