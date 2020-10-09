@@ -59,7 +59,7 @@ top: 40px;
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
 .skip{
-position: relative;
+position: absolute;
 }
 
 /*Your Code Here*/
