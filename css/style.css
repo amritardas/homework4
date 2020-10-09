@@ -86,7 +86,7 @@ footer{
 .container{
   /*Your Code Here*/
   display: grid;
-  /* -webkit-grid-template-columns: 1fr 5fr 1fr; */
+  -webkit-grid-template-columns: 1fr 5fr 1fr;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
   grid-row-gap: 15px;
@@ -123,13 +123,11 @@ header p{
 
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your Code Here*/
+  display:inline-block;
+  overflow: hidden;
   grid-column: 1 / -1;
   max-height: 700px;
-  display:inline-block;
-  grid-row: 2 / auto;
-  grid-row: 3 / auto;
-  grid-row: 4 / auto;
-  grid-row: 5 / auto;
+  grid-row: auto / auto;
 }
 
 .about, .about-image{
@@ -176,7 +174,7 @@ header p{
 
   .container{
     display: grid;
-    /* -webkit-grid-template-columns: 50px auto 500px auto 50px; */
+    -webkit-grid-template-columns: 50px auto 500px auto 50px;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 400px 400px 400px 400px;
   }
