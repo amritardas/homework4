@@ -119,14 +119,16 @@ header p{
   /*Your Code Here*/
   grid-column: 2 / auto;
   grid-row: auto / auto;
+  align-self: center;
 }
 
 .about-image, .method-image, .clients-image, .contact-image{
   /*Your Code Here*/
+  max-height: 700px;
+  align-self: center;
   display:inline-block;
   overflow: hidden;
   grid-column: 1 / -1;
-  max-height: 700px;
   grid-row: auto / auto;
 }
 
@@ -160,6 +162,7 @@ header p{
   padding: 30px;
   margin: auto;
   vertical-align: middle;
+  align-self: center;
 
 }
 
