@@ -53,14 +53,13 @@ z-index: 1;
 /*Your code here*/
 opacity: 0;
 position: absolute;
-/* top: 40px; */
+margin-top: 40px;
 }
 
 /*Your Code Here*/
 /*Write selector/rule property to position the skip class element*/
 .skip{
 position: relative;
-top: 40px;
 }
 
 /*Your Code Here*/
