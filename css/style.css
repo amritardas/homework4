@@ -118,6 +118,7 @@ header p{
 .about, .method, .clients, .contact{
   /*Your Code Here*/
   align-self: center;
+  z-index: 1;
   grid-column: 2 / auto;
   grid-row: auto / auto;
 }
