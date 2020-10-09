@@ -90,6 +90,7 @@ footer{
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
   grid-row-gap: 15px;
+  overflow: hidden;
 }
 
 header{
@@ -116,7 +117,7 @@ header p{
 
 .about, .method, .clients, .contact{
   /*Your Code Here*/
-  grid-column: 2 / span 1;
+  grid-column: 2 / auto;
   grid-row: auto / auto;
 }
 
@@ -124,7 +125,7 @@ header p{
   /*Your Code Here*/
   grid-column: 1 / -1;
   max-height: 700px;
-  display:inline;
+  display:inline-block;
   grid-row: 2 / auto;
   grid-row: 3 / auto;
   grid-row: 4 / auto;
