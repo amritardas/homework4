@@ -39,6 +39,10 @@ nav a:hover{
 text-decoration: underline;
 }
 
+img{
+  height: 70%
+}
+
 .skip a{
 background: white;
 left: 0;
@@ -117,7 +121,6 @@ text-align: center;
 
 .about, .method, .clients, .contact{
 /*Your Code Here*/
-align-self: center;
 z-index: 2;
 grid-column: 2 / auto;
 grid-row: auto / auto;
@@ -161,18 +164,23 @@ border: 10px solid black;
 display: inline-block;
 padding: 30px;
 margin: auto;
-vertical-align: middle;
 align-self: center;
 
 }
 
 
 @media all and (min-width: 800px){
+img{
+  width: 90%;
+}
+
 nav{
   padding: 30px 0px;
   /*Your code here:*/
   text-align: right;
   vertical-align: middle;
+  width: 100%;
+  height: 100%;
 }
 
 .container{
@@ -180,10 +188,13 @@ nav{
   -webkit-grid-template-columns: 50px auto 500px auto 50px;
   grid-template-columns: 50px auto 500px auto 50px;
   grid-template-rows: 400px 400px 400px 400px 400px;
+  width: 100%;
+  height: 100%;
 }
 
 .about, .clients, .method-image, .contact-image{
   grid-column: 3 /  span 2;
+  /* height: 400px; */
 }
 
 .about-image, .clients-image, .method, .contact{
