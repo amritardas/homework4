@@ -117,6 +117,7 @@ header p{
 
 .about, .method, .clients, .contact{
   /*Your Code Here*/
+  align-self: center;
   grid-column: 2 / auto;
   grid-row: auto / auto;
 }
